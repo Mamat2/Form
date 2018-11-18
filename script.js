@@ -1,0 +1,3 @@
+function submitAction(form) {
+	alert("прувейт,"+form.nameInput.value);// body...
+}
