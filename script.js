@@ -1,3 +1,8 @@
+
+
 function submitAction(form) {
-	alert("прувейт,"+form.nameInput.value);// body...
+	var hero = getElementById("nameInput");
+	hero.innerHTML=form.hero.value;
 }
+
+
